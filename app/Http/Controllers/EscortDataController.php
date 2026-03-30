@@ -495,7 +495,11 @@ class EscortDataController extends Controller
                     'processing_method' => 'file_upload'
                 ]);
                 
-                $file->storeAs('public/uploads', $filename);
+                $storagePath = 'public/uploads/' . $filename;
+                if (!Storage::put($storagePath, file_get_contents($file->getRealPath()))) {
+                    throw new \Exception('Gagal menyimpan gambar ke storage.');
+                }
+                
                 $validatedData['foto_pengantar'] = 'uploads/' . $filename;
                 $imageProcessed = true;
             }
