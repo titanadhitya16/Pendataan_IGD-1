@@ -23,7 +23,7 @@
 
             {{-- Header Form --}}
             <div class="card-header border-left-primary">
-                <img src="{{ asset('Rumah_Sakit_Indriati.webp') }}" alt="Logo" 
+                <img src="{{ asset('') }}" alt="Logo" 
                 class="logo">
                 <h4 class="login-title">
                     <i class="fas fa-hospital"></i>
