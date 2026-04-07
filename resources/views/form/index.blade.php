@@ -28,7 +28,7 @@
         <div class="card shadow mb-4">
             <div class="card-header pt-2 pb-1 border-left-primary align-items-center">
                 <div class="text-center mt-3">
-                    <img src="{{ asset('Rumah_Sakit_Indriati.webp') }}" alt="Logo" class="logo">
+                    <img src="{{ asset('') }}" alt="Logo" class="logo">
                 </div>
 
                 <h2 class="mx-3 font-weight-bold text-black form-title pt-3">
