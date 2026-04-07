@@ -33,7 +33,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-light shadow-sm">
         <div class="container-fluid">
             <a class="navbar-brand mx-3" href="{{ route('dashboard') }}">
-                <img src="{{ asset('navbar_logo.png') }}" alt="Logo" 
+                <img src="{{ asset('') }}" alt="Logo" 
                 class="logo">
             </a>
             
