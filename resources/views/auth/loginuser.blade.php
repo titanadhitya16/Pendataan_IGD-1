@@ -19,7 +19,7 @@
         <div class="form-container">
 
             <div class="card-header">
-                <img src="{{ asset('Rumah_Sakit_Indriati.webp') }}" 
+                <img src="{{ asset('') }}" 
                      alt="Logo" 
                      class="logo">
                 <h2 id="card-title" class="form-title gradient-text">
